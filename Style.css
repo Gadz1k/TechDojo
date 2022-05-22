@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
 }
+
 a {
 	text-decoration: none;
 }
@@ -70,7 +71,7 @@ li a {
 
 /*MAIN*/
 
-main {
+#mainIndex {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -81,9 +82,20 @@ main {
 	text-align: center;
 }
 
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #282828;
+	height: 1050px;
+	width: 100%;
+	padding-top: 50px;
+	text-align: center;
+}
+
 #mainIntroducion {
 	width: 50%;
-	height: 40%;
+	height: 260px;
 }
 
 #mainIntroducion p {
@@ -96,6 +108,7 @@ main {
 	font-size: 48px;
 	font-weight: bold;
 }
+
 #tutorialListMain {
 	display: flex;
 	flex-direction: row;
@@ -135,6 +148,7 @@ main {
 	font-weight: medium;
 	text-align: left;
 }
+
 /*INFOBAR*/
 
 #info {
