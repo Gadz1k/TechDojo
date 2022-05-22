@@ -109,6 +109,30 @@ li a {
 	font-weight: bold;
 }
 
+#tutorialCategories {
+	display: flex;
+	width: 60%;
+	height: 50px;
+	background: #232323;
+	border: solid 1px #ffffff;
+	border-radius: 5px;
+	align-items: center;
+}
+
+#categoriesMenu {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	flex: 1;
+}
+
+#categoriesMenu li {
+	width: 100px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #ffffff;
+}
+
 #tutorialListMain {
 	display: flex;
 	flex-direction: row;
