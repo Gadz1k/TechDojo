@@ -6,6 +6,11 @@
 	font-family: "Roboto", sans-serif;
 }
 
+html {
+	width: 100%;
+	height: 100%;
+}
+
 a {
 	text-decoration: none;
 }
@@ -91,6 +96,11 @@ li a {
 	width: 100%;
 	padding-top: 50px;
 	text-align: center;
+}
+
+.wrapper {
+	width: 360px;
+	padding: 20px;
 }
 
 #mainIntroducion {
@@ -222,4 +232,63 @@ footer p {
 footer p a {
 	color: #3176fc;
 	text-decoration: none;
+}
+
+/*LOGOWANIE */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+.formMain {
+	width: 100%;
+	height: 100vh;
+	background-color: #282828;
+}
+
+.login {
+	width: 20vw;
+	padding: 10% 0 0 0;
+	margin: auto;
+}
+
+.form {
+	background-color: #1f1f1f;
+	z-index: 1;
+	border-radius: 10px;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form input {
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	margin: 15px 0px 0px;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.logowaniePrzycisk {
+	margin-top: 15px;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	border-radius: 15px;
+	padding: 15px;
+	color: #3176fc;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.logowaniePrzycisk:active {
+	background: #e8ebf1;
+}
+
+.form h1 {
+	font-size: 48px;
+	color: #3176fc;
 }
